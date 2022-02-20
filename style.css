@@ -1,0 +1,364 @@
+@font-face{
+    src: url(fonts/SanFranciscoDisplay);
+    font-family: sanfrancisco;
+}
+
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 10px;
+    font-family: sanfrancisco , sans-serif
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 , 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height:  4.4rem;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    padding: 1.5rem;
+}
+
+.nav-list-mobile{
+    display: none;
+    }
+
+    .nav-link{
+        font-size: small;
+        color: white;
+        padding: 0 1rem;
+        transition: opacity .5s;
+     }
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("E:\asfand\apple.com\images\icon.png") center no-repeat;
+   
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("E:\asfand\apple.com\images\icon.png") center no-repeat;
+}
+.nav-link-bag{
+    width: 20px;
+    height: 24px;
+    background: center no-repeat;
+}
+
+.iphone-13-pro{
+    height: 69.2rem;
+    background-image: url(images/img2.jpg);
+   
+}
+.hero{
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-13-pro{
+    border-top: none;
+}
+
+.title{
+    color: black;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+    font-family: sanfrancisco , sans-serif;
+    font-size: 50px;
+    font-style: none;
+    line-height: 1.07143;
+    letter-spacing: 0;
+    height: 1.5rem;
+    opacity: 90%;
+    }
+
+.title-sub-heading{
+    font-size: 2.8rem;
+    margin-top: .6rem;
+    letter-spacing: inherit;
+    font-weight: 400;
+    color: black;
+    opacity: 90%;
+    }
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+    }
+
+.cta-link{
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding-top: 0%;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #06c;
+}
+
+.watch{
+    height: 69.2rem;
+    background-image: url(images/img3.jpg);
+}
+
+.title-heading-watch{
+    background-size: auto 7.8rem;
+    margin-top: 4rem;
+}
+
+.valentines{
+    height: 69.2rem;
+    background-image: url(images/val.jpg);
+}
+/*
+.coda{
+    height: 69.2rem;
+    background-image: url(images/laaa.jpg);
+        }
+.title-coda{
+    font-size:medium;
+    padding-top: 0px;
+    margin-top: 0%;
+}
+
+.title-heading-codaa{
+    font-size: 2.8rem;
+    margin-top: .6rem;
+    letter-spacing: inherit;
+    font-weight: 400;
+    color: white;
+    padding-top: 44rem;
+    }
+
+    .apple{
+        margin-top: 0rem;
+        padding: auto;
+       }
+.ctaa{
+    text-align: center;
+    text-align: start;
+    margin-top: 1rem;
+    }
+}*/
+
+.small-container{
+    padding-top: 0.6rem;
+    margin-top: 0%;
+}
+
+.iphone-13{
+    display: inline-block;
+    height: 65rem;
+    width: 48%;
+    background-image: url(images/tile_iphone_13__d9w82q7fwceq_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: .6rem solid #fff;
+    margin-right: 2rem;
+    padding-left: 0.2rem;
+
+}
+
+.heading{
+    font-family: sanfrancisco , sans-serif;
+    font-size: 40px;
+    font-style: none;
+    line-height: 45rem;
+    letter-spacing: 0;
+    height: 1.5rem;
+    color: #fff;
+    }
+ 
+.sub-head{
+    font-size: 2.5rem;
+    margin-top: 24rem;
+    letter-spacing: inherit;
+    font-weight: 400;
+    color: pink;
+    opacity: 90%;
+    }
+
+.shot{
+    display: inline-block;
+    height: 65rem;
+    width: 48%;
+    background-image: url(images/tile_soip__f0c6lef982em_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: .6rem solid #fff;
+    margin-top: 0.2px;
+    vertical-align: top;
+    padding-right: 0.2rem;
+    
+}
+
+.soip{
+    font-family: sanfrancisco , sans-serif;
+    font-size: 30px;
+    font-style: none;
+    line-height: 0rem;
+    letter-spacing: 0;
+    height: 0.5rem;
+    color: black;
+    opacity: 90%; 
+    }
+
+
+.sub-headd{
+    font-size: 2rem;
+    margin-top: 0rem;
+    letter-spacing: inherit;
+    font-weight: 400;
+    color: black;
+    opacity: 90%;
+    }
+
+.apple-watch{
+    display: inline-block;
+    height: 65rem;
+    width: 48%;
+    background-image: url(images/promo_watch_heart__dlf8uc5h0kae_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: .6rem solid #fff;
+    margin-top: 0.2px;
+    vertical-align: top;
+    padding-left: 0.2rem;
+}
+
+.ghari{
+    font-family: sanfrancisco , sans-serif;
+    font-size: 35px;
+    font-style: none;
+    line-height: 0rem;
+    letter-spacing: 0;
+    height: 0.5rem;
+    color: black;
+    opacity: 90%; 
+    }
+.sub-headdd{
+    font-size: 2rem;
+    margin-top: 0rem;
+    letter-spacing: inherit;
+    font-weight: 400;
+    color: black;
+    opacity: 90%;
+    }
+
+.apple-watchh{
+        display: inline-block;
+        height: 65rem;
+        width: 48%;
+        background-image: url(images/promo_watch__fo7j0tnywi2q_medium.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: .6rem solid #fff;
+        margin-top: 0.2px;
+        vertical-align: top;
+        padding-right: 0rem;
+        padding-left: 1rem;
+    }
+
+    .kali-ghari{
+        font-family: sanfrancisco , sans-serif;
+        font-size: 35px;
+        font-style: none;
+        line-height: 0rem;
+        letter-spacing: 0;
+        height: 0.5rem;
+        color: white;
+        opacity: 90%; 
+        }
+
+.sub-headddd{
+        font-size: 2rem;
+        margin-top: 0rem;
+        letter-spacing: inherit;
+        font-weight: 400;
+        color: white;
+        opacity: 90%;
+        }
+.points{
+    font-family: sans-serif;
+    font-size: small;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+    margin-left: 12rem;
+    color: grey;
+    }
+
+    .colour{
+        background-color: rgb(233, 233, 233);
+    }
+
+    .list{
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 8rem;
+        font-family: sans-serif;
+        font-size: small;
+        color: grey;
+        line-height: 2rem;
+    }
+
+    .bolder{
+        font-style: bolder;
+        color: black;
+        opacity: 80%;
+    }
+
+   
+
+    
+    
+
+   
+
+
+
+/*end*/
+
